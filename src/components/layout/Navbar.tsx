@@ -120,9 +120,7 @@ export const Navbar: React.FC = () => {
       {/* CTA BUTTON */}
       <div
         className={`z-10 lg:block lg:static lg:w-[197px] ${
-          isOpen
-            ? 'absolute top-[calc(100%*4.3)] w-[calc(100%-32px)] block'
-            : 'hidden'
+          isOpen ? 'absolute top-[430%] w-[calc(100%-32px)] block' : 'hidden'
         }`}
       >
         <Button variant='primary' className='w-full'>
