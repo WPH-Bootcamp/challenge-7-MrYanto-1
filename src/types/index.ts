@@ -10,3 +10,10 @@ export interface ProcessItem {
   description: string;
   alignLeft: boolean;
 }
+
+export interface ServiceItem {
+  id: number;
+  title: string;
+  description: string;
+  iconName: string;
+}
