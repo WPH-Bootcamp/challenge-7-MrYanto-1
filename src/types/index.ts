@@ -3,3 +3,10 @@ export interface StatItem {
   value: string;
   label: string;
 }
+export interface ProcessItem {
+  id: number;
+  stepNumber: number;
+  title: string;
+  description: string;
+  alignLeft: boolean;
+}
