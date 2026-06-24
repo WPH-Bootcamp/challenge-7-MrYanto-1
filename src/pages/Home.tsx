@@ -5,7 +5,7 @@ import { HeroSection } from '../components/sections/HeroSection';
 import { AboutSection } from '../components/sections/AboutSection';
 import { ServiceSection } from '../components/sections/ServiceSection';
 
-const Home = () => {
+const Home: React.FC = () => {
   return (
     <div>
       <Navbar />
